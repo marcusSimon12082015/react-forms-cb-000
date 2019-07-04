@@ -10,13 +10,13 @@ class Form extends Component {
       firstName: event.target.value
     })
   }
-   
+
   handleLastNameChange = event => {
     this.setState({
       lastName: event.target.value
     })
   }
-  
+
   render() {
     return (
       <form>
